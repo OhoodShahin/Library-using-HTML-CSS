@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesp.css">
+    <title>Registration</title>
+</head>
+<body>
+    <formheader>
+        <nav class="nav_bar">
+            <a href="./project.html" target="_self">Home</a>
+            <a href="https://www.audible.com/blog/article-best-fantasy-authors-ever" target="_blank">Authors</a>
+            <a href="#contact">Contact</a>
+            <a href="./books.html">Genres</a>
+            <a href="Form.html" target="_blank" class="button" >Registration</a>
+            <div class="search-bar">
+                <input type="text" id="search-input" placeholder="Search...">
+                <button onclick="searchCatalog()" class="search-button">Search</button>
+            </div>
+        </nav>
+    </formheader>
+    <section class="formbody">
+    <div class="formcontainer">
+        <form action="wel.html" method="get"> 
+            <h2 class="h2r">Registration</h2>
+            <div class="formcontent">
+                <div class="input-box">
+                    <label for="name">Full Name</label>
+                    <input type="text" placeholder="Enter Full Name" name="name" required>
+                </div>
+                <div class="input-box">
+                    <label for="username">User Name</label>
+                    <input type="text" placeholder="Enter User Name" name="uname" required>
+                </div>
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <input type="email" placeholder="Enter your valid Email address" name="email" required>
+                </div>
+                <div class="input-box">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" placeholder="Enter Phone Number " name="Phone" required>
+                </div>
+                <div class="input-box">
+                    <label for="password">Password</label>
+                    <input type="password" placeholder="Enter New Password " name="password" required>
+                </div>
+                <div class="input-box">
+                    <label for="confirm-password">Confirm Password</label>
+                    <input type="password" placeholder="Confirm your Password " name="confirm-password" required>
+                </div>
+                <span class="Gender-title">Gender</span>
+                <div class="Gender-category">
+                    <input type="radio" name="gender" id="male">
+                    <label for="male"><img src="../1.jpg" alt="Male" width="50px"heigh=50px></label>
+                    <input type="radio" name="gender" id="female">
+                    <label for="female"><img src="../2.jpg" alt="female"width="50px"heigh=50px></label>
+                </div>
+            </div>
+            <div class="alert">
+                <p>By clicking sign up, you agree to our<a href="#">terms,</a><a href="#">privacy policy</a> and <a href="#">cookies policy</a>.
+                    You may receive SMS notifications from us and can opt out at any time. </p>
+            </div>
+            <div class="button-form">
+                <button type="submit">Register</button>
+            </div>
+        </form>
+    </div>
+</section>
+    <footer class="footer">
+        <div class="contact" id="contact">
+        <div class="copy"><p >&copy; 2023 Your Storyteller's Sanctuary. All rights reserved.</p></div>
+        <div class="nav-bar-contact">
+            <p>Contact:
+            <a href="https://www.facebook.com/virgin" ><img src="facebook.png"class="logo"></a>
+            <a href="https://twitter.com/virgin" ><img src="twitter.png" class="logo"></a>
+            <a href="https://www.instagram.com/virgin" ><img src="instagram.png"class="logo"></a>
+            </p>
+        </div>
+        </div>
+        </footer>
+    
+</body>
+</html>
+
+
